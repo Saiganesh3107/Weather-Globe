@@ -37,7 +37,7 @@ WeatherGlobe/
 
 1. **Clone or Download the Repository**
    ```
-   git clone https://github.com/yourusername/weather-globe.git
+   git clone https://github.com/Saiganesh3107/Weather-Globe
    ```
 
 2. **Replace API Keys**
