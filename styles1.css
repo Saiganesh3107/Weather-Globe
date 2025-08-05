@@ -1,0 +1,148 @@
+/* Reset some default browser styles */
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f0f1f6;
+  color: #333;
+}
+
+main {
+  flex-grow: 1;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 12px 0 0 12px;
+  font-size: 1em;
+  width: auto;
+  margin-right: -1px;
+}
+button {
+  background-color: #4a90e3;
+  color: #ffff;
+  border: none;
+  border-radius: 0 12px 12px 0;
+  padding: 13px 20px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #035dcb;
+}
+
+/* Weather content */
+.weather-display {
+  text-align: center;
+  padding: 20px;
+}
+
+.temp-display,
+.condition-display {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.condition-info span {
+  margin-right: 15px;
+  font-size: 1.2em;
+}
+
+#loading,
+#error {
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+#loading {
+  color: #4a90e3;
+}
+#error {
+  color: red;
+}
+footer {
+  text-align: center;
+  background-color: #035dcb;
+  color:#035dcb;
+  border-top: 3px solid #333;
+  font-size: 0.9em;
+}
+
+.main-container {
+  display: flex;
+  height: 70vh;
+  width: 100%;
+}
+
+.map {
+  flex: 1;
+  height: 100%;
+  border-right: 2px solid #ccc;
+}
+
+.right-panel {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+nav {
+  background: #035dcb;
+  background-color: #035dcb;
+  padding: 26px 20px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.nav-container h2 {
+  margin: 0;
+  font-weight: 1000;
+  font-size: 2.25em;
+}
+body {
+  transition: background-color 0.6s ease-in-out;
+}
+.condition-display img {
+  width: 48px;
+  height: 48px;
+  margin-left: 10px;
+}
+
+#location-name {
+  text-align: center;
+  font-weight: 500;
+  color: #222;
+}
+
+#custom-message {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+}
