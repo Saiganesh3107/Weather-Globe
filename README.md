@@ -16,6 +16,9 @@
 - [OpenCage Geocoding API](https://opencagedata.com/)
 - [Leaflet.js](https://leafletjs.com/) for interactive maps
 
+## Live Website
+ - https://saiganesh3107.github.io/Weather-Globe/
+
 ## 🚀 Features
 
 - 🌎 Click on the map to drop a marker and get weather
